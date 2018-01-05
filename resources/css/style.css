@@ -1,15 +1,16 @@
 html{
   font-size: 16px;
-  color: #a8a8a8;
+  color: #4a4a4a;
+  font-family: sans-serif;
 }
 
-/* Header color #4a4a4a  Reg type color #a8a8a8*/
+/* Header color #4a4a4a  Reg type color #a8a8a8  | Banner, guest lec and thesis sub bg color- #d8d8d8 | start learning bg color #eaebec |  */
 container{
-  display:flex;
   margin: 0 auto;
   width: 960px;
 }
 
+/*  Header  */
 .header{
   display: flex;
   justify-content: space-between;
@@ -46,4 +47,103 @@ nav a{
   padding-left: 1rem;
   font-size: 1.5rem;
   color: #a8a8a8;
+}
+
+/*  Moble links  */
+.mobile-links{
+  display: none;
+}
+
+/*  Banner  */
+.banner{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #d8d8d8;
+}
+.banner img{
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+.learn-new{
+display: flex;
+flex-direction: column;
+width: 25%;
+}
+
+.learn-new h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+
+  .learn-new h3{
+      font-size: 2rem;
+      font-family: sans-serif;
+      text-align: left;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+
+    button{
+      border-width: 0;
+      background-color: #4a4a4a;
+      color: white;
+      font-size: 1.5rem;
+      padding: .5rem 0;
+      width: 90%;
+    }
+
+/*  Main  */
+
+.main-info{
+  display: flex;
+  margin: 2.5rem 0rem;
+}
+.main-lft{
+  width: 60%;
+  padding: 0 1.5rem;
+}
+.eman-quote{
+  width: 90%;
+}
+.main-lft h3{
+  font-size: 3rem;
+  font-family: sans-serif;
+  font-weight: 800;
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.main-lft span{
+  font-size: 1.69rem;
+  font-family: sans-serif;
+  width: 60%;
+}
+.main-lft h6{
+  font-size: 1.20rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 1.75rem;
+  margin-bottom: 2rem;
+}
+.mobile-img{
+  display: none;
+}
+.main-rt{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.main-links{
+  display: flex;
+  align-items: center;
+  border: 1px solid #a8a8a8;
+}
+.main-links img{
+  width: 35%;
+  height: auto;
+  margin: 1rem 0 1rem 1rem;
 }
