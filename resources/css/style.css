@@ -1,0 +1,49 @@
+html{
+  font-size: 16px;
+  color: #a8a8a8;
+}
+
+/* Header color #4a4a4a  Reg type color #a8a8a8*/
+container{
+  display:flex;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  font-family: sans-serif;
+
+}
+
+.logo img{
+  height: 2.5rem;
+}
+.colmar{
+color: #4a4a4a;
+font-weight: bolder;
+}
+
+.header nav{
+  display: flex;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+nav a{
+  text-decoration: none;
+}
+.header a{
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  color: #a8a8a8;
+}
