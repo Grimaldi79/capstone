@@ -266,14 +266,14 @@ footer a{
   color: inherit;
 }
 
-/* MOBILE MEDIA QUERIES  */
+/* MOBILE  */
 
-@media only screen and (max-width: 480px)
+@media only screen and (max-width: 480px){
 
   /* HEADER  */
 
-  body h2{
-   font-size: 2.25rem;
+.container h2{
+font-size: 2.25rem;
   }
 
 header .container {
@@ -377,12 +377,11 @@ header .container {
   display: flex;
   flex-direction: column;
   margin: 1rem 0 2rem 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
 }
 
-.title h1 {
-  color: #736d66;
-  font-size: 1.4rem;
+.courses h2{
+  font-size: rem;
   font-weight: 800;
   padding-bottom: 1rem;
 }
