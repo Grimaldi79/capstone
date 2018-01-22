@@ -168,6 +168,7 @@ width: 25%;
   align-items: center;
   background-color: #d8d8d8;
   font-family: sans-serif;
+  width: 100%;
 }
 .mobile-courses{
   display: none;
@@ -176,8 +177,14 @@ width: 25%;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+.courses h3{
+    line-height: 1.5;
+}
 .courses-line{
-display: flex;flex-wrap: wrap;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
 margin: 0 4rem 2rem 4rem;
 }
 .course{
