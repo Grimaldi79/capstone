@@ -177,7 +177,6 @@ width: 25%;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-
 .courses h3{
     line-height: 1.5;
 }
@@ -306,6 +305,7 @@ header .container {
 
 .banner {
   flex-direction: column;
+  justify-content: center;
   width: 100%;
   }
 
@@ -315,10 +315,19 @@ header .container {
   }
 
 .learn-new {
-  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 2rem 1rem;
   text-align: center;
+  width: 100%;
   }
+.banner-text{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
 
 .bannert h2{
   margin-bottom: 1.5rem;
